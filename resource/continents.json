@@ -1,0 +1,54 @@
+{
+  "component": "continent",
+  "collection": [
+    {
+      "code": "AF",
+      "names": {
+        "en": "Africa",
+        "tr": "Afrika"
+      }
+    },
+    {
+      "code": "AN",
+      "names": {
+        "en": "Antarctica",
+        "tr": "Antarktika"
+      }
+    },
+    {
+      "code": "AS",
+      "names": {
+        "en": "Asia",
+        "tr": "Asya"
+      }
+    },
+    {
+      "code": "EU",
+      "names": {
+        "en": "Europe",
+        "tr": "Avrupa"
+      }
+    },
+    {
+      "code": "NA",
+      "names": {
+        "en": "North America",
+        "tr": "Kuzey Amerika"
+      }
+    },
+    {
+      "code": "OC",
+      "names": {
+        "en": "Oceania",
+        "tr": "Avustralya"
+      }
+    },
+    {
+      "code": "SA",
+      "names": {
+        "en": "South America",
+        "tr": "Güney Amerika"
+      }
+    }
+  ]
+}
