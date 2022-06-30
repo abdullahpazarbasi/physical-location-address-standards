@@ -724,5 +724,8 @@
         "post_subscriber_box_code": "postal_code"
       }
     }
-  }
+  },
+  "phone_number_masks": [
+    "+90(###)###-####"
+  ]
 }
