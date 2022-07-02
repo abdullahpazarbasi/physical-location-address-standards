@@ -329,5 +329,8 @@
                 "zu": "isi-Slovak"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+421(###)###-###"
     ]
 }

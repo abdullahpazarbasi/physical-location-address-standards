@@ -637,5 +637,8 @@
                 "zu": "isi-Makhuwa-Meetto"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+258-##-###-###"
     ]
 }

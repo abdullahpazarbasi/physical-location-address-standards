@@ -533,5 +533,8 @@
                 "zu": "isi-German"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+423(###)###-####"
     ]
 }

@@ -407,5 +407,8 @@
                 "zu": "isi-Portuguese"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+239-##-#####"
     ]
 }

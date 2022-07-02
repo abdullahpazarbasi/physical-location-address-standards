@@ -407,5 +407,8 @@
                 "zu": "isi-Spanish"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+56-#-####-####"
     ]
 }

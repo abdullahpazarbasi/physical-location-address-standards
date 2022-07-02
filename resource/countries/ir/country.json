@@ -750,5 +750,8 @@
                 "zu": "isi-Central Kurdish"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+98(###)###-####"
     ]
 }

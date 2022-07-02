@@ -328,5 +328,8 @@
                 "zu": "isi-Turkmen"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+993-#-###-####"
     ]
 }

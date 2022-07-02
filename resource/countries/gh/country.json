@@ -1175,5 +1175,8 @@
                 "zu": "isi-Akan"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+233(###)###-###"
     ]
 }

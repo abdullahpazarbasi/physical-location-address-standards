@@ -599,5 +599,8 @@
                 "zu": "isi-Russian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+380(##)###-##-##"
     ]
 }

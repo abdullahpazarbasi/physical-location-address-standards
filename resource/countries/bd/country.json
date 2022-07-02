@@ -497,5 +497,8 @@
                 "zu": "isi-Bengali"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+880-##-###-###"
     ]
 }

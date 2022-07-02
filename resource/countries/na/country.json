@@ -661,5 +661,8 @@
                 "zu": "i-Afrikaans"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+264-##-###-####"
     ]
 }

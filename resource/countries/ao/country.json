@@ -531,5 +531,8 @@
                 "zu": "isi-Lingala"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+244(###)###-###"
     ]
 }

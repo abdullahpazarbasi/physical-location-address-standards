@@ -536,5 +536,8 @@
                 "zu": "isi-Kyrgyz"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+996(###)###-###"
     ]
 }

@@ -336,5 +336,8 @@
                 "zu": "isi-Armenia"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+374-##-###-###"
     ]
 }

@@ -396,5 +396,8 @@
                 "zu": "isi-Polish"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+48(###)###-###"
     ]
 }

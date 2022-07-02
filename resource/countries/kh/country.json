@@ -392,5 +392,8 @@
                 "zu": "isi-Khmer"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+855-##-###-###"
     ]
 }

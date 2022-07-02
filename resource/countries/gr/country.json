@@ -397,5 +397,8 @@
                 "zu": "isi-Greek"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+30(###)###-####"
     ]
 }

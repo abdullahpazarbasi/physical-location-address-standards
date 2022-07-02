@@ -393,5 +393,8 @@
                 "zu": "isi-Czech"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+420(###)###-###"
     ]
 }

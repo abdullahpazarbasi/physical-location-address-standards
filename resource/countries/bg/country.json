@@ -395,5 +395,8 @@
                 "zu": "isi-Bulgari"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+359(###)###-###"
     ]
 }

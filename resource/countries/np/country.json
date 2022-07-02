@@ -392,5 +392,8 @@
                 "zu": "isi-Nepali"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+977-##-###-###"
     ]
 }

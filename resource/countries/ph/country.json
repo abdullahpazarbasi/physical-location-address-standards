@@ -881,5 +881,8 @@
                 "zu": "isi-Cebuano"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+63(###)###-####"
     ]
 }

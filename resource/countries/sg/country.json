@@ -1157,5 +1157,8 @@
                 "zu": "i-English"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+65-####-####"
     ]
 }

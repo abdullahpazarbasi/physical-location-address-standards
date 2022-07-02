@@ -4217,5 +4217,8 @@
                 "zu": "isi-Assamese"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+91(####)###-###"
     ]
 }

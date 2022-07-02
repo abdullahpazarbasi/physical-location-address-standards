@@ -810,5 +810,8 @@
                 "zu": "isi-Greek"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+357-##-###-###"
     ]
 }

@@ -771,5 +771,8 @@
                 "zu": "isi-Bambara"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+223-##-##-####"
     ]
 }

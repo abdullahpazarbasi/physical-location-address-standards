@@ -947,5 +947,8 @@
                 "zu": "isi-Asturian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+34(###)###-###"
     ]
 }

@@ -797,5 +797,8 @@
                 "zu": "isi-Persian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+93-##-###-####"
     ]
 }

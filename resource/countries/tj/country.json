@@ -327,5 +327,8 @@
                 "zu": "isi-Tajik"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+992-##-###-####"
     ]
 }

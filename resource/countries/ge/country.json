@@ -463,5 +463,8 @@
                 "zu": "isi-Georgian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+995(###)###-###"
     ]
 }

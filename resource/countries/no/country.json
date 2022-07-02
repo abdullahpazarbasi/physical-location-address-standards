@@ -596,5 +596,8 @@
                 "zu": "isi-Norwegian Bokmål"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+47(###)##-###"
     ]
 }

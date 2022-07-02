@@ -533,5 +533,8 @@
                 "zu": "isi-French"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+242-##-###-####"
     ]
 }

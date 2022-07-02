@@ -332,5 +332,8 @@
                 "zu": "isi-Albania"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+355(###)###-###"
     ]
 }

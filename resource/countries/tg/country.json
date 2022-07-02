@@ -527,5 +527,8 @@
                 "zu": "isi-Ewe"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+228-##-###-###"
     ]
 }

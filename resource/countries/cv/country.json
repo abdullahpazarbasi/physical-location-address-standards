@@ -525,5 +525,8 @@
                 "zu": "isi-Kabuverdianu"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+238(###)##-##"
     ]
 }

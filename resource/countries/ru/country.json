@@ -917,5 +917,8 @@
                 "zu": "isi-Chechen"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+7(###)###-##-##"
     ]
 }

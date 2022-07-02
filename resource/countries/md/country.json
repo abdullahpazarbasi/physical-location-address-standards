@@ -600,5 +600,8 @@
                 "zu": "isi-Romanian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+373-####-####"
     ]
 }

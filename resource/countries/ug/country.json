@@ -1129,5 +1129,8 @@
                 "zu": "isi-Chiga"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+256(###)###-###"
     ]
 }

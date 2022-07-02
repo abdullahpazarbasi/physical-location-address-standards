@@ -2298,5 +2298,8 @@
                 "zu": "isi-Aghem"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+237-####-####"
     ]
 }

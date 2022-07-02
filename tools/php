@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+if [[ -f /.dockerenv ]]; then
+    echo "You can not run this shell script inside a docker container"
+    exit 1
+fi
+
+cd "$(dirname "$0")/.."
+
+MYARGS=""
+XDEBUG_PART=""
+for ARG in "$@"; do
+  if [[ $ARG = "--xdebug" ]]; then
+      XDEBUG_PART=" -dxdebug.remote_enable=1 -dxdebug.remote_handler=dbgp -dxdebug.remote_host=host.docker.internal -dxdebug.idekey=PHPSTORM -dxdebug.remote_autostart=1"
+      continue
+  fi
+  MYARGS="${MYARGS}${ARG} "
+done
+if [[ -n "${MYARGS}" ]]; then
+  ARG="php${XDEBUG_PART} ${MYARGS}"
+else
+  ARG="php -v"
+fi
+
+docker run --rm --interactive --tty --volume ${PWD}:/app plas $ARG

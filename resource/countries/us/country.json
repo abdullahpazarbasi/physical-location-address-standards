@@ -1010,5 +1010,8 @@
                 "zu": "isi-Cherokee"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+1(###)###-####"
     ]
 }

@@ -324,5 +324,8 @@
                 "zu": "isi-Mongolian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+976-##-##-####"
     ]
 }

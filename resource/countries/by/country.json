@@ -609,5 +609,8 @@
                 "zu": "isi-Belarusian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+375(##)###-##-##"
     ]
 }

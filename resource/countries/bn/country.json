@@ -390,5 +390,8 @@
                 "zu": "isi-Malay"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+673-###-####"
     ]
 }

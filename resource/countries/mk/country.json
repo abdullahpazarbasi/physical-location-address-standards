@@ -395,5 +395,8 @@
                 "zu": "isi-Macedonian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+389-##-###-###"
     ]
 }

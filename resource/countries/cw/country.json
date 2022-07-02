@@ -328,5 +328,8 @@
                 "zu": "isi-Dutch"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+599-###-####"
     ]
 }

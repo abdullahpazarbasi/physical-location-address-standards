@@ -1159,5 +1159,8 @@
                 "zu": "isi-Arabic"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+212-##-####-###"
     ]
 }

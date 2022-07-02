@@ -329,5 +329,8 @@
                 "zu": "isi-Lithuanian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+370(###)##-###"
     ]
 }

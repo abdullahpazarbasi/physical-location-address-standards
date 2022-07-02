@@ -853,5 +853,8 @@
                 "zu": "isi-Amharic"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+251-##-###-####"
     ]
 }

@@ -888,5 +888,8 @@
                 "zu": "isi-Catalan"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+39(###)####-###"
     ]
 }

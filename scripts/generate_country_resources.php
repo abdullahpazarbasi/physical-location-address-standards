@@ -107,7 +107,7 @@ foreach ($countries as $countryCode => &$country) {
         $country['languages'] = $languageList;
     }
     ksort($country['names']);
-    $directoryPath = 'bin/cntrs/' . strtolower($countryCode);
+    $directoryPath = 'cntrs/' . strtolower($countryCode);
     if (!file_exists($directoryPath)) {
         mkdir($directoryPath, 0755, true);
     }

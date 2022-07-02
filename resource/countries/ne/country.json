@@ -1099,5 +1099,8 @@
                 "zu": "isi-Zarma"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+227-##-##-####"
     ]
 }

@@ -331,5 +331,8 @@
                 "zu": "isi-Latvian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+371-##-###-###"
     ]
 }

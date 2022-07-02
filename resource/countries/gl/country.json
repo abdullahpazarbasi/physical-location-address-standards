@@ -466,5 +466,8 @@
                 "zu": "isi-Danish"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+299-##-##-##"
     ]
 }

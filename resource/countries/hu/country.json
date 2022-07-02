@@ -392,5 +392,8 @@
                 "zu": "isi-Hungarian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+36(###)###-###"
     ]
 }

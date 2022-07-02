@@ -819,5 +819,8 @@
                 "zu": "isi-Breton"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+33(###)###-###"
     ]
 }

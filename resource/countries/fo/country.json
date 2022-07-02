@@ -276,5 +276,8 @@
                 "zu": "isi-Faroese"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+298-###-###"
     ]
 }

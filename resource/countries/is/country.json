@@ -330,5 +330,8 @@
                 "zu": "isi-Icelandic"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+354-###-####"
     ]
 }

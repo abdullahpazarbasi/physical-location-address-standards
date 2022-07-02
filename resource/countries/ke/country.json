@@ -2252,5 +2252,8 @@
                 "zu": "isi-Taita"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+254-###-######"
     ]
 }

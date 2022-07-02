@@ -404,5 +404,8 @@
                 "zu": "isi-Italian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+39-6-698-#####"
     ]
 }

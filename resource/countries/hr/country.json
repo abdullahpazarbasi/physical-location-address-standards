@@ -339,5 +339,8 @@
                 "zu": "isi-Croatian"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+385-##-###-###"
     ]
 }

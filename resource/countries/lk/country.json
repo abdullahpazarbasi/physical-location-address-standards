@@ -527,5 +527,8 @@
                 "zu": "isi-Sinhala"
             }
         }
+    ],
+    "phone_number_masks": [
+        "+94-##-###-####"
     ]
 }
