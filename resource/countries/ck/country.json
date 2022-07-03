@@ -413,7 +413,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(682)(\\d{2})(\\d{3})$",
     "phone_number_masks": [
         "+682-##-###"
-    ]
+    ],
+    "dial_code": "+682"
 }

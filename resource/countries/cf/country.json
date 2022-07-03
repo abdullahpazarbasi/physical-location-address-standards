@@ -656,7 +656,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(236)(\\d{2})(\\d{2})(\\d{4})$",
     "phone_number_masks": [
         "+236-##-##-####"
-    ]
+    ],
+    "dial_code": "+236"
 }

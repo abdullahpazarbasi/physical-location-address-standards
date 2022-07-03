@@ -412,5 +412,6 @@
     ],
     "phone_number_masks": [
         "+500-#####"
-    ]
+    ],
+    "dial_code": "+500"
 }

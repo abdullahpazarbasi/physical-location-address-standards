@@ -610,7 +610,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(375)(\\d{2})(\\d{3})(\\d{2})(\\d{2})$",
     "phone_number_masks": [
         "+375(##)###-##-##"
-    ]
+    ],
+    "dial_code": "+375"
 }

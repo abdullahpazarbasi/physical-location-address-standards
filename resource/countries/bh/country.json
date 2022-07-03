@@ -394,7 +394,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(973)(\\d{4})(\\d{4})$",
     "phone_number_masks": [
         "+973-####-####"
-    ]
+    ],
+    "dial_code": "+973"
 }

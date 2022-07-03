@@ -673,7 +673,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(226)(\\d{2})(\\d{2})(\\d{4})$",
     "phone_number_masks": [
         "+226-##-##-####"
-    ]
+    ],
+    "dial_code": "+226"
 }

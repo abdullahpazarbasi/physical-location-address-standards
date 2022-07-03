@@ -622,7 +622,7 @@
             "house_number": "House",
             "block": "Block",
             "storey_number": "Storey",
-            "apartment_number": "Apartment \/ Flat",
+            "apartment_number": "Apartment / Flat",
             "room_number": "Room"
         },
         "tr": {
@@ -634,7 +634,7 @@
             "postal_code": "Posta Kodu",
             "post_subscriber_box_code": "Posta Abone Kutusu",
             "poste_restante_code": "Posta Alıcı Kodu",
-            "township": "Bucak \/ Belde",
+            "township": "Bucak / Belde",
             "quarter": "Mahalle",
             "village": "Köy",
             "boulevard": "Bulvar",
@@ -647,7 +647,7 @@
             "farmstead": "Çiftlik",
             "quarters": "Kışla",
             "vicinity": "Mevki",
-            "zone": "Bölge \/ Mıntıka",
+            "zone": "Bölge / Mıntıka",
             "apartment_complex": "Apartman",
             "building": "Bina",
             "sites": "Site",
@@ -705,46 +705,15 @@
             "Apt.": "Apartmanı"
         }
     },
-    "component_regular_expressions": [],
-    "receiver_address_template": {
+    "postal_address_template": {
+        "lines": [
+            "{recipient_name}",
+            "{quarter|village}",
+            "{boulevard|avenue|}{road|street|dead_end|}{vicinity|zone|}{passage|campus|quarters|farmstead|sites|building|apartment_complex|}{{' No:'}house_number}{{' Blok:'}block|}{{' K:'}storey_number|}{{' D:'}apartment_number|{' Oda:'}room_number|}",
+            "{postal_code|post_subscriber_box_code|poste_restante_code}{township|neighborhood|}{{' '}district|}{{' '}province}",
+            "{country}"
+        ],
         "tr": {
-            "lines": [
-                "{receiver}",
-                "{quarter}{village}",
-                "{boulevard}{avenue}{street}{dead_end}{passage}{road}{vicinity}{campus}{quarters}{farmstead}{zone}{sites}{building}{apartment_complex}{house_number}{block}{storey_number}{apartment_number}{room_number}",
-                "{postal_code}{post_subscriber_box_code}{poste_restante_code}{neighborhood}{township}{district}{province}{country}"
-            ],
-            "prefixes": {
-                "quarter": " ",
-                "village": " ",
-                "boulevard": " ",
-                "avenue": " ",
-                "street": " ",
-                "dead_end": " ",
-                "passage": " ",
-                "road": " ",
-                "vicinity": " ",
-                "campus": " ",
-                "quarters": " ",
-                "farmstead": " ",
-                "zone": " ",
-                "sites": " ",
-                "building": " ",
-                "apartment_complex": " ",
-                "house_number": " No: ",
-                "block": " \/ ",
-                "storey_number": " \/ ",
-                "apartment_number": " \/ ",
-                "room_number": " Oda: ",
-                "postal_code": " ",
-                "post_subscriber_box_code": " PK ",
-                "poste_restante_code": " ",
-                "neighborhood": " ",
-                "township": " ",
-                "district": " ",
-                "province": " ",
-                "country": " "
-            },
             "suffixes": {
                 "quarter": " Mahallesi",
                 "village": " Köyü",
@@ -761,16 +730,12 @@
                 "zone": " Bölgesi",
                 "sites": " Sitesi",
                 "apartment_complex": " Apartmanı"
-            },
-            "overridings": {
-                "dead_end": "street",
-                "street": "avenue",
-                "poste_restante_code": "post_subscriber_box_code",
-                "post_subscriber_box_code": "postal_code"
             }
         }
     },
+    "phone_number_pattern": "^(90)([2345]\\d{2})(\\d{3})(\\d{2})(\\d{2})$",
     "phone_number_masks": [
         "+90(###)###-####"
-    ]
+    ],
+    "dial_code": "+90"
 }

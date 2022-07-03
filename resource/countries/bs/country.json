@@ -410,7 +410,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(1)(242)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+1(242)###-####"
-    ]
+    ],
+    "dial_code": "+1242"
 }

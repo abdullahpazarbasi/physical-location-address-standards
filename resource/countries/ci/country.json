@@ -409,7 +409,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(225)(\\d{2})(\\d{3})(\\d{3})$",
     "phone_number_masks": [
         "+225-##-###-###"
-    ]
+    ],
+    "dial_code": "+225"
 }

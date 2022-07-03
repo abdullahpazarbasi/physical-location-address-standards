@@ -408,7 +408,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(1)(684)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+1(684)###-####"
-    ]
+    ],
+    "dial_code": "+1684"
 }

@@ -536,7 +536,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(591)(\\d{1})(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+591-#-###-####"
-    ]
+    ],
+    "dial_code": "+591"
 }

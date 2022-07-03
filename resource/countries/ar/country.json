@@ -406,7 +406,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(54)(\\d{3})(\\d{3})(\\d{3})$",
     "phone_number_masks": [
         "+54(###)###-####"
-    ]
+    ],
+    "dial_code": "+54"
 }

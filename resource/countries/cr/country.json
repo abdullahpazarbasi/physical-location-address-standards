@@ -406,7 +406,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(506)(\\d{4})(\\d{4})$",
     "phone_number_masks": [
         "+506-####-####"
-    ]
+    ],
+    "dial_code": "+506"
 }

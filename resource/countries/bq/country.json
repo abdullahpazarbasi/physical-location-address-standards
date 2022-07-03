@@ -323,5 +323,10 @@
                 "zu": "isi-Dutch"
             }
         }
-    ]
+    ],
+    "phone_number_pattern": "^(599)([16]\\d{2})(\\d{4})$",
+    "phone_number_masks": [
+        "+599-###-####"
+    ],
+    "dial_code": "+599"
 }

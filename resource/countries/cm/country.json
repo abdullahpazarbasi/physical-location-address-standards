@@ -2299,7 +2299,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(237)(\\d{4})(\\d{4})$",
     "phone_number_masks": [
         "+237-####-####"
-    ]
+    ],
+    "dial_code": "+237"
 }

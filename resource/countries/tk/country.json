@@ -407,5 +407,6 @@
     ],
     "phone_number_masks": [
         "+690-####"
-    ]
+    ],
+    "dial_code": "+690"
 }

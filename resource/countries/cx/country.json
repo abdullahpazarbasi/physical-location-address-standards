@@ -352,5 +352,10 @@
                 "zu": "i-English"
             }
         }
-    ]
+    ],
+    "phone_number_pattern": "^(61)(8)(9164)(\\d{4})$",
+    "phone_number_masks": [
+        "+61-8-9164-####"
+    ],
+    "dial_code": "+61"
 }

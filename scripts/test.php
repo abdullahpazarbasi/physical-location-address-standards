@@ -21,24 +21,12 @@ function extractFilePaths($rootDirectory, &$paths): void
 $paths = [];
 extractFilePaths($rootDirectory, $paths);
 
-$dialCodesContent = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . "../drafts/dial_codes.json");
-$dialCodesModel = json_decode($dialCodesContent, true);
-
 foreach ($paths as $path) {
     if (preg_match('/\.json$/', $path) !== false) {
         $currentFileContent = file_get_contents($path);
         $currentModel = json_decode($currentFileContent, true);
         $currentCountryCode = $currentModel["code"];
         //
-        foreach ($dialCodesModel as $item) {
-            if ($item["code"] === $currentCountryCode) {
-                if (isset($item["dial_code"])) {
-                    $currentModel["dial_code"] = $item["dial_code"];
-                } else {
-                    echo "$currentCountryCode yok" . PHP_EOL;
-                }
-            }
-        }
         //
         $currentFileContent = json_encode($currentModel, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
         file_put_contents($path, $currentFileContent);

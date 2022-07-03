@@ -543,5 +543,6 @@
     ],
     "phone_number_masks": [
         "+676-#####"
-    ]
+    ],
+    "dial_code": "+676"
 }

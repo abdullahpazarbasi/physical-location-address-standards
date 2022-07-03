@@ -526,7 +526,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(238)(\\d{3})(\\d{2})(\\d{2})$",
     "phone_number_masks": [
         "+238(###)##-##"
-    ]
+    ],
+    "dial_code": "+238"
 }

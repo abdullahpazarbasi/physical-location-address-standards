@@ -329,7 +329,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(599)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+599-###-####"
-    ]
+    ],
+    "dial_code": "+599"
 }

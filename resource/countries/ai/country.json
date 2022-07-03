@@ -406,7 +406,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(1)(264)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+1(264)###-####"
-    ]
+    ],
+    "dial_code": "+1264"
 }

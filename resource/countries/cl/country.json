@@ -408,7 +408,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(56)(\\d{1})(\\d{4})(\\d{4})$",
     "phone_number_masks": [
         "+56-#-####-####"
-    ]
+    ],
+    "dial_code": "+56"
 }

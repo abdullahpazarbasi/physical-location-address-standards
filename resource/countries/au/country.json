@@ -409,7 +409,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(61)(\\d)(\\d{4})(\\d{4})$",
     "phone_number_masks": [
         "+61-#-####-####"
-    ]
+    ],
+    "dial_code": "+61"
 }

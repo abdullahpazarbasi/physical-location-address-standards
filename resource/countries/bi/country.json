@@ -743,7 +743,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(257)(\\d{2})(\\d{2})(\\d{4})$",
     "phone_number_masks": [
         "+257-##-##-####"
-    ]
+    ],
+    "dial_code": "+257"
 }

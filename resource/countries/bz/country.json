@@ -621,7 +621,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(501)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+501-###-####"
-    ]
+    ],
+    "dial_code": "+501"
 }

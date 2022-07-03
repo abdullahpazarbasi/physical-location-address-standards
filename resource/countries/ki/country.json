@@ -408,5 +408,6 @@
     ],
     "phone_number_masks": [
         "+686-##-###"
-    ]
+    ],
+    "dial_code": "+686"
 }

@@ -335,7 +335,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(376)(\\d{3})(\\d{3})$",
     "phone_number_masks": [
         "+376-###-###"
-    ]
+    ],
+    "dial_code": "+376"
 }

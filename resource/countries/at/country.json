@@ -621,7 +621,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(43)(\\d{3})(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+43(###)###-####"
-    ]
+    ],
+    "dial_code": "+43"
 }

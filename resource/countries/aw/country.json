@@ -395,7 +395,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(297)(\\d{3})(\\d{4})$",
     "phone_number_masks": [
         "+297-###-####"
-    ]
+    ],
+    "dial_code": "+297"
 }

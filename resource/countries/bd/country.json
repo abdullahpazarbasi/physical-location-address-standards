@@ -498,7 +498,9 @@
             }
         }
     ],
+    "phone_number_pattern": "^(880)(\\d{2})(\\d{3})(\\d{3})$",
     "phone_number_masks": [
         "+880-##-###-###"
-    ]
+    ],
+    "dial_code": "+880"
 }

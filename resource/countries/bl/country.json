@@ -344,5 +344,10 @@
                 "zu": "isi-French"
             }
         }
-    ]
+    ],
+    "phone_number_pattern": "^(590)(\\d{3})(\\d{3})(\\d{3})$",
+    "phone_number_masks": [
+        "+590(###)###-###"
+    ],
+    "dial_code": "+590"
 }
